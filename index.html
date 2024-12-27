@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Cards</title>
+    <style>
+        div.main {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        body {
+            background-color: #111;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .card {
+            height: 240px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+        <h1>Карточки</h1>
+    </div>
+    <div class="main">
+        <img src="CardTemplate.svg" class="card">
+        <img src="CardMace.svg" class="card">
+        <img src="CardAidar.svg" class="card">
+        <img src="CardMaxbond.svg" class="card">
+    </div>
+  </body>
+</html>
